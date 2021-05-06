@@ -9,7 +9,7 @@ namespace InfrastructureLayer.Model
 {
    public class AppUser : IdentityUser
     {
-        public string firstName;
-        public string lastName;
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }

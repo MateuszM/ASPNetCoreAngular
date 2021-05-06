@@ -1,4 +1,5 @@
-﻿using System;
+﻿using InfrastructureLayer.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,8 +8,8 @@ namespace InfrastructureLayer
 {
     public class UnitOfWorkGeneric : IDisposable, IUnitOfWork
     {
-        private AppIdentityDBContext db;
-        public UnitOfWorkGeneric(AppIdentityDBContext dbs)
+        private AppIdentityDbContext db;
+        public UnitOfWorkGeneric(AppIdentityDbContext dbs)
         {
 
             db = dbs;

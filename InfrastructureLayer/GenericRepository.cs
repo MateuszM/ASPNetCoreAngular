@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using InfrastructureLayer.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,9 @@ namespace InfrastructureLayer
     public class GenericRepository<T> : IRepository<T> where T : class
     {
 
-        private AppIdentityDBContext _context = null;
+        private AppIdentityDbContext _context = null;
         DbSet<T> _objectSet;
-        public GenericRepository(AppIdentityDBContext _db)
+        public GenericRepository(AppIdentityDbContext _db)
         {
             _context = _db;
             _objectSet = _context.Set<T>();
