@@ -23,22 +23,25 @@ namespace NetCoreAngularShop.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> Post([FromBody] SignInModel model)
+        [Route("api/[controller]")]
+        public async Task<IActionResult> Post([FromBody] SignInRequestModel model)
         {
             if(!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
             AppUser appUser = new AppUser{ UserName=model.Email,FirstName=model.FirstName,LastName=model.LastName,Email=model.Email};
-            var result = await _userManager.CreateAsync(appUser);
+            var result = await _userManager.CreateAsync(appUser,model.Password);
             if(result.Succeeded)
             {
                 return BadRequest(result.Errors);
             }
+            await AddUserClaims(appUser, model);
 
-            return Ok();
+
+            return Ok(new SignOutResponseModel(appUser,model.Role));
         }
-        private async Task AddUserClaims(AppUser user,SignInModel model)
+        private async Task AddUserClaims(AppUser user,SignInRequestModel model)
         {
             await _userManager.AddClaimsAsync(user, new List<Claim>() {new Claim("userName",user.UserName),
                                                                        new Claim("email",user.Email),

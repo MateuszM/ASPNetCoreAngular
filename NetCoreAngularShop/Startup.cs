@@ -45,12 +45,19 @@ namespace NetCoreAngularShop
             services.AddIdentity<AppUser, IdentityRole>()
             .AddEntityFrameworkStores<AppIdentityDbContext>();
             services.AddControllersWithViews();
-            services.AddIdentityServer().AddOperationalStore(options =>
+            services.AddIdentityServer(options =>
+            {
+                options.Events.RaiseSuccessEvents = true;
+                options.Events.RaiseFailureEvents = true;
+                options.Events.RaiseErrorEvents = true;
+            }
+            ).AddOperationalStore(options =>
             {
                 options.ConfigureDbContext = b => b.UseSqlServer(GetConnectionString(),
                     sql => sql.MigrationsAssembly("InfrastructureLayer"));
                 options.EnableTokenCleanup = true;
                 options.TokenCleanupInterval = 60;
+
             }).AddConfigurationStore(options =>
             {
                 options.ConfigureDbContext = b => b.UseSqlServer(GetConnectionString(),

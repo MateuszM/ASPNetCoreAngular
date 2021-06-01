@@ -11,6 +11,8 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("InfrastructureLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Bezimienny\\source\\repos\\NetCoreAngularShop\\InfrastructureLayer", "InfrastructureLayer.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("NetCoreAngularShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Bezimienny\\source\\repos\\NetCoreAngularShop\\NetCoreAngularShop", "NetCoreAngularShop.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCoreAngularShopTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NetCoreAngularShop.Models
 {
-    public class SignInModel
+    public class SignInRequestModel
     {
         [Required]
         [Display(Name ="First Name")]
