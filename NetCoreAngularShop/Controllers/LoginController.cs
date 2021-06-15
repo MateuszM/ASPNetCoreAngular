@@ -48,7 +48,7 @@ namespace NetCoreAngularShop.Controllers
                             ExpiresUtc = DateTimeOffset.UtcNow.Add(AccountOptions.RememberMeLoginDuration)
                         };
                     };
-                    await HttpContext.SignInAsync(user.Id, user.UserName, props);
+                 //   await HttpContext.SignInAsync(user.Id, user.UserName, props);
 
                     if (context != null)
                     {
@@ -79,8 +79,8 @@ namespace NetCoreAngularShop.Controllers
         }
         private async Task GetClaims(AppUser user)
         {
-            var claimsPrincipal = await userManager.crea
-            var claims = claimsPrincipal.Claims.ToList();
+         //   var claimsPrincipal = await userManager.crea
+         //   var claims = claimsPrincipal.Claims.ToList();
         }
         
 

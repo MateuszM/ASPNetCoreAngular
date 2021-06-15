@@ -37,7 +37,7 @@ namespace NetCoreAngularShop.Controllers
                 return BadRequest(result.Errors);
             }
             await AddUserClaims(appUser, model);
-            return Ok(new SignOutResponseModel(appUser,model.Role));
+            return Ok(new SignInResponseModel(appUser,model.Role));
         }
         private async Task AddUserClaims(AppUser user,SignInRequestModel model)
         {
