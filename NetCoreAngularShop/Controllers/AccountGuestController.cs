@@ -37,13 +37,11 @@ namespace NetCoreAngularShop.Controllers
                 return BadRequest(result.Errors);
             }
             await AddUserClaims(appUser, model);
-
-
-            return Ok(new SignInResponseModel(appUser,model.Role));
+            return Ok(new SignOutResponseModel(appUser,model.Role));
         }
         private async Task AddUserClaims(AppUser user,SignInRequestModel model)
         {
-            await _userManager.AddClaimsAsync(user, new List<Claim>() {new Claim("userName",user.UserName), //Adds claims do database
+            await _userManager.AddClaimsAsync(user, new List<Claim>() {new Claim("userName",user.UserName), //AddClaimAsync adds to database
                                                                        new Claim("email",user.Email),
                                                                        new Claim("role",model.Role
                                                                        )}.ToList());

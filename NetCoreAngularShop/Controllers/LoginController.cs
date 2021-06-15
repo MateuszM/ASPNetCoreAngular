@@ -39,15 +39,6 @@ namespace NetCoreAngularShop.Controllers
                 if (user != null && await userManager.CheckPasswordAsync(user, model.Password))
                 {
                     await events.RaiseAsync(new UserLoginSuccessEvent(user.UserName, user.Id, user.FirstName, user.LastName));
-                    AuthenticationProperties properties = null;
-                    if (AccountOptions.AllowRememberLogin && model.RememberLogin)
-                    {
-                        properties = new AuthenticationProperties()
-                        {
-                            IsPersistent = true,
-                            ExpiresUtc = DateTimeOffset.UtcNow.Add(AccountOptions.RememberMeLoginDuration)
-                        };
-                    }
                     AuthenticationProperties props = null;
                     if (AccountOptions.AllowRememberLogin && model.RememberLogin)
                     {
@@ -57,8 +48,6 @@ namespace NetCoreAngularShop.Controllers
                             ExpiresUtc = DateTimeOffset.UtcNow.Add(AccountOptions.RememberMeLoginDuration)
                         };
                     };
-
-                    // issue authentication cookie with subject ID and username
                     await HttpContext.SignInAsync(user.Id, user.UserName, props);
 
                     if (context != null)
@@ -66,7 +55,6 @@ namespace NetCoreAngularShop.Controllers
                         // we can trust model.ReturnUrl since GetAuthorizationContextAsync returned non-null
                         return Redirect(model.ReturnUrl);
                     }
-
                     // request for a local page
                     if (Url.IsLocalUrl(model.ReturnUrl))
                     {
@@ -82,7 +70,6 @@ namespace NetCoreAngularShop.Controllers
                         throw new Exception("invalid return URL");
                     }
                 }
-
                 await events.RaiseAsync(new UserLoginFailureEvent(model.UserName, "invalid credentials"));
                 ModelState.AddModelError(string.Empty, AccountOptions.InvalidCredentialsErrorMessage);
             }
@@ -90,6 +77,14 @@ namespace NetCoreAngularShop.Controllers
             var vm = new LoginInputViewModel() { UserName = model.UserName, RememberLogin = model.RememberLogin };
             return View(vm);
         }
+        private async Task GetClaims(AppUser user)
+        {
+            var claimsPrincipal = await userManager.crea
+            var claims = claimsPrincipal.Claims.ToList();
+        }
+        
+
+        
     }
 }
 
