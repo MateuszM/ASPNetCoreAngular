@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace NetCoreAngularShop.Models
 {
-    public class SignOutResponseModel
+    public class SignInResponseModel
     {
         public string Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Role { get; set; }
-        public SignOutResponseModel()
+        public SignInResponseModel()
         { }
-        public SignOutResponseModel(AppUser user, string role)
+        public SignInResponseModel(AppUser user, string role)
         {
             FirstName = user.FirstName;
             LastName = user.LastName;

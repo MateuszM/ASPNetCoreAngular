@@ -42,7 +42,7 @@ namespace NetCoreAngularShop.Controllers.Tests
 
             // Deserialize and examine results.
             var stringResponse = await httpResponse.Content.ReadAsStringAsync();
-            var response = JsonConvert.DeserializeObject<SignOutResponseModel>(stringResponse);
+            var response = JsonConvert.DeserializeObject<SignInResponseModel>(stringResponse);
             Assert.Equal(requests[0].FirstName, response.FirstName);
             Assert.Equal(requests[0].Email, response.Email);
             Assert.Equal(requests[0].Role, response.Role);
