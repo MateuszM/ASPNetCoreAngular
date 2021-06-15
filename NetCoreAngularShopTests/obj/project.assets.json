@@ -3021,7 +3021,8 @@
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection": "5.0.1"
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
+          "ServiceLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/InfrastructureLayer.dll": {}
@@ -3049,6 +3050,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ServiceLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ServiceLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceLayer.dll": {}
+        }
       }
     }
   },
@@ -9752,6 +9763,11 @@
       "type": "project",
       "path": "../NetCoreAngularShop/NetCoreAngularShop.csproj",
       "msbuildProject": "../NetCoreAngularShop/NetCoreAngularShop.csproj"
+    },
+    "ServiceLayer/1.0.0": {
+      "type": "project",
+      "path": "../ServiceLayer/ServiceLayer.csproj",
+      "msbuildProject": "../ServiceLayer/ServiceLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
