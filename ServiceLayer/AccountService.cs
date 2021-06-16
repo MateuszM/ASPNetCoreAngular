@@ -5,28 +5,54 @@ using Business_Layer;
 using InfrastructureLayer.Data;
 using InfrastructureLayer.Model;
 using Microsoft.AspNetCore.Identity;
+using System.Linq;
 
 namespace ServiceLayer
 {
     public class AccountService : IAccountService
     {
         private AppIdentityDbContext context;
-        public AccountService (AppIdentityDbContext dbContext)
+        private IClaimsLogic claims;
+        public AccountService(AppIdentityDbContext dbContext)
         {
             this.context = dbContext;
+            claims = new ClaimsLogic(dbContext);
         }
-        public ClaimsPrincipal GetPrincipal(AppUser user)
+        public void SetBusinessLayerClaims(IClaimsLogic claims)
         {
-            BusinessLayerClaims claims = new BusinessLayerClaims(context);
-            var UserIdentity = new ClaimsIdentity(ConvertFromIdentityToClaims(claims.LoadUserClaims(user)), "Customer");
-            var ClaimsPrincipal = new ClaimsPrincipal(UserIdentity);
-            return ClaimsPrincipal;
+            this.claims = claims;
+        }
+        public ClaimsPrincipal CreatePrincipal(AppUser user)
+        {
+            
+            List<Claim> ListClaims = ConvertFromIdentityToClaims(claims.LoadUserClaims(user));
+            Claim Role = GetRole(ListClaims);
+            if (Role.Value == "Customer")
+            {
+                var UserIdentity = new ClaimsIdentity(ListClaims, "Customer");
+                return new ClaimsPrincipal(UserIdentity);
+            }
+            if (Role.Value == "Employee")
+            {
+                //TODO
+            }
+            if (Role.Value == "SuperAdmin")
+            {
+                //TODO
+            }
+            return null;
+
+        }
+
+        private Claim GetRole(List<Claim> converted)
+        {
+            return converted.Find(x => x.Type == "Role");
         }
         private List<Claim> ConvertFromIdentityToClaims(List<IdentityUserClaim<string>> identityUserClaimsList)
         {
             List<Claim> temp = new List<Claim>();
 
-            foreach(IdentityUserClaim<string> s in identityUserClaimsList)
+            foreach (IdentityUserClaim<string> s in identityUserClaimsList)
             {
                 temp.Add(s.ToClaim());
             }

@@ -35,7 +35,7 @@ namespace NetCoreAngularShop.Controllers
         public async Task<IActionResult> Login(LoginInputViewModel model)
         {
             var context = interaction.GetAuthorizationContextAsync(model.ReturnUrl);
-            
+
             if (ModelState.IsValid)
             {
                 var user = await userManager.FindByNameAsync(model.UserName);
@@ -52,7 +52,12 @@ namespace NetCoreAngularShop.Controllers
                             ExpiresUtc = DateTimeOffset.UtcNow.Add(AccountOptions.RememberMeLoginDuration)
                         };
                     };
-                  await HttpContext.SignInAsync(accountService.GetPrincipal(user), props);
+                    ClaimsPrincipal principal = accountService.CreatePrincipal(user);
+                    if (principal == null)
+                    {
+                        throw new Exception("invalid return URL");
+                    }
+                    await HttpContext.SignInAsync(principal, props);
 
                     if (context != null)
                     {
@@ -81,10 +86,10 @@ namespace NetCoreAngularShop.Controllers
             var vm = new LoginInputViewModel() { UserName = model.UserName, RememberLogin = model.RememberLogin };
             return View(vm);
         }
-       
-        
 
-        
+
+
+
     }
 }
 

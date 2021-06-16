@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace Business_Layer
 {
-   public class BusinessLayerClaims
+   public class ClaimsLogic : IClaimsLogic
     {
         private AppIdentityDbContext context;
-        public BusinessLayerClaims(AppIdentityDbContext dbContext)
+        public ClaimsLogic(AppIdentityDbContext dbContext)
         {
             context = dbContext;
         }

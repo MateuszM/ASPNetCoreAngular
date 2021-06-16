@@ -14,5 +14,5 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\InfrastructureLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\Business Layer.pdb
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\InfrastructureLayer.pdb
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CopyComplete
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csprojAssemblyReference.cache

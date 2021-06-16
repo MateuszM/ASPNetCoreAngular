@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NetCoreAngularShop\NetCoreAngularShop.csproj" />
+    <ProjectReference Include="..\ServiceLayer\ServiceLayer.csproj" />
   </ItemGroup>
 
 </Project>
