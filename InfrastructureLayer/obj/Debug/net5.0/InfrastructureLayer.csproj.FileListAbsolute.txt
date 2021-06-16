@@ -13,7 +13,4 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\obj\Debu
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\obj\Debug\net5.0\ref\InfrastructureLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\obj\Debug\net5.0\InfrastructureLayer.pdb
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\obj\Debug\net5.0\InfrastructureLayer.genruntimeconfig.cache
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\bin\Debug\net5.0\ServiceLayer.dll
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\bin\Debug\net5.0\ServiceLayer.pdb
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\obj\Debug\net5.0\InfrastructureLayer.csprojAssemblyReference.cache
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\obj\Debug\net5.0\InfrastructureLayer.csproj.CopyComplete
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\InfrastructureLayer\obj\Debug\net5.0\InfrastructureLayer.csproj.AssemblyReference.cache

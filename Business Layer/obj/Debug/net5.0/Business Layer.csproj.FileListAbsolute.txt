@@ -4,10 +4,7 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\bin\Debug\net
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\bin\Debug\net5.0\ref\Business Layer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\bin\Debug\net5.0\Business Layer.pdb
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\bin\Debug\net5.0\InfrastructureLayer.dll
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\bin\Debug\net5.0\ServiceLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\bin\Debug\net5.0\InfrastructureLayer.pdb
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\bin\Debug\net5.0\ServiceLayer.pdb
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.csprojAssemblyReference.cache
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.AssemblyInfoInputs.cache
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.AssemblyInfo.cs
@@ -16,3 +13,4 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\ref\Business Layer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.pdb
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.csproj.AssemblyReference.cache

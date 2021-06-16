@@ -2,7 +2,6 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\ServiceLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\ref\ServiceLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\ServiceLayer.pdb
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csprojAssemblyReference.cache
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfoInputs.cache
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.AssemblyInfo.cs
@@ -10,3 +9,10 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ref\ServiceLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.pdb
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\appsettings.json
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\Business Layer.dll
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\InfrastructureLayer.dll
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\Business Layer.pdb
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\bin\Debug\net5.0\InfrastructureLayer.pdb
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\ServiceLayer\obj\Debug\net5.0\ServiceLayer.csproj.CopyComplete

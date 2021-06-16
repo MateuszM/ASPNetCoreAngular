@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ServiceLayer;
 using System.Reflection;
 
 namespace NetCoreAngularShop
@@ -41,7 +42,6 @@ namespace NetCoreAngularShop
         {
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
             AddDbContext(services);
-            
             services.AddIdentity<AppUser, IdentityRole>()
             .AddEntityFrameworkStores<AppIdentityDbContext>();
             services.AddControllersWithViews();
@@ -74,7 +74,8 @@ namespace NetCoreAngularShop
                 configuration.RootPath = "ClientApp/dist";
             });
 
-          services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Latest);
+            services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Latest);
+            services.AddTransient<IAccountService>(s => new AccountService(s.GetService<AppIdentityDbContext>()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
