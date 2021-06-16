@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreAngularShop.Models;
 using NetCoreAngularShop.Models.ViewModels;
+using ServiceLayer;
 using System;
 using System.Security.Claims;
 using System.Threading;
@@ -19,19 +20,22 @@ namespace NetCoreAngularShop.Controllers
         private readonly UserManager<AppUser> userManager;
         private readonly IEventService events;
         private readonly IIdentityServerInteractionService interaction;
+        private IAccountService accountService;
         public IActionResult Index()
         {
             return View();
         }
-        public LoginController(UserManager<AppUser> userManager, IEventService events, IIdentityServerInteractionService interaction)
+        public LoginController(UserManager<AppUser> userManager, IEventService events, IIdentityServerInteractionService interaction, IAccountService service)
         {
             this.userManager = userManager;
             this.events = events;
             this.interaction = interaction;
+            this.accountService = service;
         }
         public async Task<IActionResult> Login(LoginInputViewModel model)
         {
             var context = interaction.GetAuthorizationContextAsync(model.ReturnUrl);
+            
             if (ModelState.IsValid)
             {
                 var user = await userManager.FindByNameAsync(model.UserName);
@@ -48,7 +52,7 @@ namespace NetCoreAngularShop.Controllers
                             ExpiresUtc = DateTimeOffset.UtcNow.Add(AccountOptions.RememberMeLoginDuration)
                         };
                     };
-                 //   await HttpContext.SignInAsync(user.Id, user.UserName, props);
+                  await HttpContext.SignInAsync(accountService.GetPrincipal(user), props);
 
                     if (context != null)
                     {
@@ -77,11 +81,7 @@ namespace NetCoreAngularShop.Controllers
             var vm = new LoginInputViewModel() { UserName = model.UserName, RememberLogin = model.RememberLogin };
             return View(vm);
         }
-        private async Task GetClaims(AppUser user)
-        {
-         //   var claimsPrincipal = await userManager.crea
-         //   var claims = claimsPrincipal.Claims.ToList();
-        }
+       
         
 
         

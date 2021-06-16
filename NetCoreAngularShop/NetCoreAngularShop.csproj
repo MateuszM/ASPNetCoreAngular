@@ -32,6 +32,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InfrastructureLayer\InfrastructureLayer.csproj" />
+    <ProjectReference Include="..\ServiceLayer\ServiceLayer.csproj" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
