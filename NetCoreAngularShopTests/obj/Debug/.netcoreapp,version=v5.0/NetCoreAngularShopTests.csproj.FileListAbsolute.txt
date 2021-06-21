@@ -440,3 +440,5 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\NetCoreAngularShopTests\bin\
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\NetCoreAngularShopTests\obj\Debug\.netcoreapp,version=v5.0\NetCoreAngularShopTests.csprojAssemblyReference.cache
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\NetCoreAngularShopTests\bin\Debug\.netcoreapp,version=v5.0\ServiceLayer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\NetCoreAngularShopTests\bin\Debug\.netcoreapp,version=v5.0\ServiceLayer.pdb
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\NetCoreAngularShopTests\bin\Debug\.netcoreapp,version=v5.0\Business Layer.dll
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\NetCoreAngularShopTests\bin\Debug\.netcoreapp,version=v5.0\Business Layer.pdb

@@ -41,9 +41,9 @@ namespace NetCoreAngularShop.Controllers
         }
         private async Task AddUserClaims(AppUser user,SignInRequestModel model)
         {
-            await _userManager.AddClaimsAsync(user, new List<Claim>() {new Claim("userName",user.UserName), //AddClaimAsync adds to database
-                                                                       new Claim("email",user.Email),
-                                                                       new Claim("role",model.Role
+            await _userManager.AddClaimsAsync(user, new List<Claim>() {new Claim("UserName",user.UserName), //AddClaimAsync adds to database
+                                                                       new Claim("Email",user.Email),
+                                                                       new Claim("Role",model.Role
                                                                        )}.ToList());
         }
         private async Task AddUserClaims(AppUser user, IEnumerable<Claim> claims)

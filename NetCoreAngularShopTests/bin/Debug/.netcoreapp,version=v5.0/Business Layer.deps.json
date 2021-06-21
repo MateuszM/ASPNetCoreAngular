@@ -1051,16 +1051,10 @@
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "5.0.0",
           "Microsoft.Extensions.Configuration.FileExtensions": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection": "5.0.1",
-          "ServiceLayer": "1.0.0"
+          "Microsoft.Extensions.DependencyInjection": "5.0.1"
         },
         "runtime": {
           "InfrastructureLayer.dll": {}
-        }
-      },
-      "ServiceLayer/1.0.0": {
-        "runtime": {
-          "ServiceLayer.dll": {}
         }
       }
     }
@@ -1849,11 +1843,6 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "InfrastructureLayer/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ServiceLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

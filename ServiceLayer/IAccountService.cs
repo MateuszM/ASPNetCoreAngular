@@ -10,6 +10,6 @@ namespace ServiceLayer
 {
    public interface IAccountService
     {
-        public ClaimsPrincipal GetPrincipal(AppUser user);
+        public ClaimsPrincipal CreatePrincipal(AppUser user);
     }
 }
