@@ -43,7 +43,7 @@ namespace ServiceLayer.Tests
         {
             AccountService accountService = new AccountService(new AppIdentityDbContext(new Microsoft.EntityFrameworkCore.DbContextOptions<AppIdentityDbContext>()));
             accountService.SetBusinessLayerClaims(new FakeClaimLogicTrueClass());
-            Assert.IsTrue(accountService.CreatePrincipal(userCustomer).FindFirst("Role").Value=="Customer");
+            Assert.IsTrue(accountService.CreatePrincipal(userCustomer).FindFirst("Role").Value == "Customer");
         }
 
 
