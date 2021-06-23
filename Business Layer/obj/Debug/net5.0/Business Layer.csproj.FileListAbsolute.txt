@@ -13,4 +13,4 @@ C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\ref\Business Layer.dll
 C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.pdb
-C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.csprojAssemblyReference.cache
+C:\Users\Bezimienny\source\repos\NetCoreAngularShop\Business Layer\obj\Debug\net5.0\Business Layer.csproj.AssemblyReference.cache
