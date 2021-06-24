@@ -34,4 +34,23 @@ export class AuthService extends BaseService {
   isAuthenticated(): boolean {
     return this.user != null && !this.user.expired;
   }
+
+  login(newAccount?: boolean, userName?: string) {
+
+    let extraQueryParams = newAccount && userName ? {
+      newAccount: newAccount,
+      userName: userName
+    } : {};
+
+    // https://github.com/IdentityModel/oidc-client-js/issues/315
+    return this.manager.signinRedirect({
+      extraQueryParams
+    });
+  }
+
+  async completeAuthentication() {
+    this.user = await this.manager.signinRedirectCallback();
+    this.authNavStatusSource.next(this.isAuthenticated());
+  }
+
 }

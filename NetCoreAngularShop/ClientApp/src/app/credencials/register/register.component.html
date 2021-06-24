@@ -1,10 +1,10 @@
 <div class="d-flex justify-content-center align-items-center containter">
-  <form class="form-group">
+  <form [formGroup]="signupform">
     <div class="form-group">
       <div class="mb-3 row">
         <label for="inputFirstName" class="col-sm-6 col-form-label">First Name:</label>
         <div class="col-sm-6">
-          <input type="text" class="form-control" placeholder="First name" />
+          <input type="text" class="form-control" placeholder="First name" required pattern="\/w"/>
         </div>
       </div>
       <div class="mb-3 row">

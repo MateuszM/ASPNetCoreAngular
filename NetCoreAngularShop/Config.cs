@@ -38,7 +38,7 @@ namespace NetCoreAngularShop
                     AllowedGrantTypes = GrantTypes.Code,
                     RequirePkce = true,
                     RequireClientSecret = false,
-                  //  AllowedScopes = { "openid", "profile", "email", "api.read" },
+                    AllowedScopes = { "openid", "profile", "email", "api.read" },
                   //  RedirectUris = {$"http://{devHost}/test-client/callback.html"}, // test client runs on same host
                    // AllowedCorsOrigins = {$"http://{devHost}" }, // test client runs on same host
                     AccessTokenLifetime = (int)TimeSpan.FromMinutes(120).TotalSeconds
@@ -51,9 +51,9 @@ namespace NetCoreAngularShop
                     RequirePkce = true,
                     RequireClientSecret = false,
                     AllowedScopes = { "openid", "profile", "email", "api.read" },
-                 //   RedirectUris = {"http://localhost:4200/auth-callback"}, // test client runs on same host,
-                //    PostLogoutRedirectUris = new List<string> {"http://localhost:4200/"},
-                //    AllowedCorsOrigins = {"http://localhost:4200" }, // test client runs on same host
+                    RedirectUris = {"http://localhost:4200/auth-callback"}, // test client runs on same host,
+                    PostLogoutRedirectUris = new List<string> {"http://localhost:4200/"},
+                    AllowedCorsOrigins = {"http://localhost:4200" }, // test client runs on same host
                     AccessTokenLifetime = (int)TimeSpan.FromMinutes(120).TotalSeconds
                 }
             };
