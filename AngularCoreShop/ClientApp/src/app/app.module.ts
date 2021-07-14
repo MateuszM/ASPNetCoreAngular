@@ -12,6 +12,8 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { LoginComponent } from './credencials/login/login.component';
 import { FooterComponent } from './contact-information/footer/footer.component';
 import { RegisterComponent } from './credencials/register/register.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,7 @@ import { RegisterComponent } from './credencials/register/register.component';
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    MatSliderModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
@@ -35,9 +38,11 @@ import { RegisterComponent } from './credencials/register/register.component';
       { path: 'login', component: LoginComponent },
       { path: 'register', component: RegisterComponent },
 
-    ])
+    ]),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
