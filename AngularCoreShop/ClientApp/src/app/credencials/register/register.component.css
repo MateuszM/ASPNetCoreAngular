@@ -1,3 +1,7 @@
 input:invalid:required {
   background-image: linear-gradient(to right, pink, lightgreen);
 }
+section {
+  justify-content: center;
+  display: flex;
+}
