@@ -14,7 +14,7 @@ import { FooterComponent } from './contact-information/footer/footer.component';
 import { RegisterComponent } from './credencials/register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-
+import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +31,7 @@ import { MatSliderModule } from '@angular/material/slider';
     HttpClientModule,
     FormsModule,
     MatSliderModule,
+    SharedModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
