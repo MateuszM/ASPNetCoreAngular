@@ -35,7 +35,6 @@ export class RegisterComponent implements OnInit {
   public signup = (signupFormValue: any) => {
 
     if (this.signupForm.valid) {
-
       this.busy = true;
       /*
       let accountSignup: AccountSignup = {

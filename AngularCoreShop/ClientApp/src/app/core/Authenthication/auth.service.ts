@@ -52,5 +52,4 @@ export class AuthService extends BaseService {
     this.user = await this.manager.signinRedirectCallback();
     this.authNavStatusSource.next(this.isAuthenticated());
   }
-
 }
