@@ -2930,6 +2930,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+<<<<<<< Updated upstream
       "xunit/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -2938,6 +2939,8 @@
           "xunit.core": "[2.4.1]"
         }
       },
+=======
+>>>>>>> Stashed changes
       "xunit.abstractions/2.0.3": {
         "type": "package",
         "compile": {
@@ -2947,6 +2950,7 @@
           "lib/netstandard2.0/xunit.abstractions.dll": {}
         }
       },
+<<<<<<< Updated upstream
       "xunit.analyzers/0.10.0": {
         "type": "package"
       },
@@ -2975,6 +2979,8 @@
           "buildMultiTargeting/_._": {}
         }
       },
+=======
+>>>>>>> Stashed changes
       "xunit.extensibility.core/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -2988,6 +2994,7 @@
           "lib/netstandard1.1/xunit.core.dll": {}
         }
       },
+<<<<<<< Updated upstream
       "xunit.extensibility.execution/2.4.1": {
         "type": "package",
         "dependencies": {
@@ -3001,6 +3008,8 @@
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
       },
+=======
+>>>>>>> Stashed changes
       "xunit.runner.visualstudio/2.4.3": {
         "type": "package",
         "build": {
@@ -3047,12 +3056,16 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+<<<<<<< Updated upstream
           "InfrastructureLayer": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
           "Microsoft.AspNetCore.SpaServices.Extensions": "5.0.4",
           "Microsoft.Extensions.DependencyInjection": "5.0.1",
           "ServiceLayer": "1.0.0",
           "xunit": "2.4.1"
+=======
+          "Microsoft.AspNetCore.SpaServices.Extensions": "5.0.4"
+>>>>>>> Stashed changes
         },
         "compile": {
           "bin/placeholder/NetCoreAngularShop.dll": {}
@@ -5207,7 +5220,11 @@
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "ZJbyxj5gWzOfnJTXGn9LH8ZK9t/PGFUVlsgv/dZUFy/ruE+eScVrAkaBTwf58FJ3F84cBMBOIm4QscRTtfxgqg==",
+=======
+      "sha512": "HdSSp5MnJSsg08KMfZThpuLPJpPwE5hBXvHwoKWosyHHfe8Mh5WKT0ylEOf6yNzX6Ngjxe4Whkafh5q7Ymac4Q==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -5220,7 +5237,11 @@
       ]
     },
     "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "NCGzArSeAPBQJrBY2TUzb/19o3E3TgDFYyl+r+8zWuExcqJDBz5aGkEW8SwwqdscRc37IdtwTr2D2duW47CmHg==",
+=======
+      "sha512": "+yH1a49wJMy8Zt4yx5RhJrxO/DBDByAiCzNwiETI+1S4mPdCu0OY4djdciC7Vssk0l22wQaDLrXxXkp+3+7bVA==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -5285,7 +5306,11 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.Apple/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "jwjwlEL0Elv6gwoyaokRn12nv/JE+UW/DXJEbzhjCPvGbef36StnHKc9XaZD/rGWqYicrphZ7eumR/jdmNcjRg==",
+=======
+      "sha512": "DloMk88juo0OuOWr56QG7MNchmafTLYWvABy36izkrLI5VledI0rq28KGs1i9wbpeT9NPQrx/wTf8U2vazqQ3Q==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
@@ -5298,7 +5323,11 @@
       ]
     },
     "runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "wWqB5kJ+vYC+IH7orP8EezottaOczECwYBFcecbkgG3IG6s8WghUdmM6pbUqSLhPibItxCWNg73rvG5cbL9tmw==",
+=======
+      "sha512": "NS1U+700m4KFRHR5o4vo9DSlTmlCKu/u7dtE5sUHVIPB+xpXxYQvgBgA6wEIeCz6Yfn0Z52/72WYsToCEPJnrw==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -5402,7 +5431,11 @@
       ]
     },
     "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "1uVTITQP8/cI6YoO6FqfW1pzP0k2TnDZ3TFD88Bu/9H7ZuTsMY9xmadbGpwPu8w8swcd1ifZJsjD9hF9O6C/tg==",
+=======
+      "sha512": "VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -5643,7 +5676,11 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
+=======
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
@@ -5867,7 +5904,11 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
+=======
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -7317,7 +7358,11 @@
       ]
     },
     "System.Private.DataContractSerialization/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "FQ8EpQJ/nkhlWEZSJVQmDLNONiMufYRuLVL/X7YnsVUIFJuhWO6i1Yc5+s7j7ZUlJtuTvWs96aHr5TU/kFM31w==",
+=======
+      "sha512": "yDaJ2x3mMmjdZEDB4IbezSnCsnjQ4BxinKhRAaP6kEgL6Bb6jANWphs5SzyD8imqeC/3FxgsuXT6ykkiH1uUmA==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.private.datacontractserialization/4.3.0",
       "files": [
@@ -7480,12 +7525,19 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "+rD+UzHYxfXsT+YrMI0njdFaP/o1cnmSnRWy4os/NaWJC7FyCHrCOwiAKUwz+smQ3cPKZ8pAAv5zM5DDBG4K4w==",
+=======
+      "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
+<<<<<<< Updated upstream
         ".signature.p7s",
+=======
+>>>>>>> Stashed changes
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7625,7 +7677,11 @@
       ]
     },
     "System.Reflection.Metadata/1.6.0": {
+<<<<<<< Updated upstream
       "sha512": "sARURAx/ZV3f3lL/40TG9y2Wqk60DXUlvzowM5oYeHlcpuEMIxoKnDBhNwBzwRs3i+vWUwIbU7Kk/+mG+hzckA==",
+=======
+      "sha512": "I4aWCii7N1bmn43vviRfJQYW6UAco1G/CcjJouvgGdb/sr2BRTSnddhaPMg2oxu9VHFn8T1z3dTLq0pna8zmtA==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.reflection.metadata/1.6.0",
       "files": [
@@ -8483,7 +8539,11 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.5.0": {
+<<<<<<< Updated upstream
       "sha512": "mGJlrpfwmR+KIfBw3+8emfh6VCutuQDIyRJNzuZoKs+PjTZ2tzBD72Ru6BoQt9O+HgECfxwAganrTlAuup7mXw==",
+=======
+      "sha512": "O4tqXxWCD8y1IU1VTgzbuBFwoRahrADhDUxHjwezhHCsqyFNyQ5EytjWBxu0EsZuH14b4UO2pFkG063K2h/9Ug==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.security.cryptography.cng/4.5.0",
       "files": [
@@ -8617,7 +8677,11 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
+=======
+      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -9567,7 +9631,11 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
+<<<<<<< Updated upstream
       "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+=======
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
+>>>>>>> Stashed changes
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
@@ -9636,6 +9704,7 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+<<<<<<< Updated upstream
     "xunit/2.4.1": {
       "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
       "type": "package",
@@ -9647,6 +9716,8 @@
         "xunit.nuspec"
       ]
     },
+=======
+>>>>>>> Stashed changes
     "xunit.abstractions/2.0.3": {
       "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
       "type": "package",
@@ -9664,6 +9735,7 @@
         "xunit.abstractions.nuspec"
       ]
     },
+<<<<<<< Updated upstream
     "xunit.analyzers/0.10.0": {
       "sha512": "4/IDFCJfIeg6bix9apmUtIMwvOsiwqdEexeO/R2D4GReIGPLIRODTpId/l4LRSrAJk9lEO3Zx1H0Zx6uohJDNg==",
       "type": "package",
@@ -9707,6 +9779,8 @@
         "xunit.core.nuspec"
       ]
     },
+=======
+>>>>>>> Stashed changes
     "xunit.extensibility.core/2.4.1": {
       "sha512": "yKZKm/8QNZnBnGZFD9SewkllHBiK0DThybQD/G4PiAmQjKtEZyHi6ET70QPU9KtSMJGRYS6Syk7EyR2EVDU4Kg==",
       "type": "package",
@@ -9725,6 +9799,7 @@
         "xunit.extensibility.core.nuspec"
       ]
     },
+<<<<<<< Updated upstream
     "xunit.extensibility.execution/2.4.1": {
       "sha512": "7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
       "type": "package",
@@ -9740,6 +9815,8 @@
         "xunit.extensibility.execution.nuspec"
       ]
     },
+=======
+>>>>>>> Stashed changes
     "xunit.runner.visualstudio/2.4.3": {
       "sha512": "kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
       "type": "package",
@@ -9904,7 +9981,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   }

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "n7r++9ISDC1MVtgTeNxJCh5vI8PM6BGn3u00PlXGrGra+SYJWn2h1RdundMIv2/SdED+pqLnDQWomc5Zuttbhg==",
+=======
+  "dgSpecHash": "TAMUu53Rj9kvKpdpoAub1gSUKWd7nToG1wMnpaQsdaA8yaPXkcCOqPy+O2SIQyd/iSpSNy/6Jv7Iq3rtgr52VQ==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Bezimienny\\source\\repos\\NetCoreAngularShop\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
@@ -71,7 +75,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.globalization.extensions\\4.3.0\\system.globalization.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.6.0\\system.identitymodel.tokens.jwt.5.6.0.nupkg.sha512",
+<<<<<<< Updated upstream
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+=======
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
@@ -82,22 +90,38 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+<<<<<<< Updated upstream
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+=======
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+<<<<<<< Updated upstream
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+=======
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.runtime.caching\\4.7.0\\system.runtime.caching.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.serialization.formatters\\4.3.0\\system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
+<<<<<<< Updated upstream
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.serialization.json\\4.3.0\\system.runtime.serialization.json.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+=======
+    "C:\\Users\\Bezimienny\\.nuget\\packages\\system.runtime.serialization.json\\4.3.0\\system.runtime.serialization.json.4.3.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Bezimienny\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\Bezimienny\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",

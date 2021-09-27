@@ -63,7 +63,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     },
@@ -180,7 +184,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     },
@@ -278,7 +286,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     },
@@ -310,6 +322,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
+<<<<<<< Updated upstream
             "projectReferences": {
               "C:\\Users\\Bezimienny\\source\\repos\\NetCoreAngularShop\\InfrastructureLayer\\InfrastructureLayer.csproj": {
                 "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\NetCoreAngularShop\\InfrastructureLayer\\InfrastructureLayer.csproj"
@@ -318,6 +331,9 @@
                 "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\NetCoreAngularShop\\ServiceLayer\\ServiceLayer.csproj"
               }
             }
+=======
+            "projectReferences": {}
+>>>>>>> Stashed changes
           }
         },
         "warningProperties": {
@@ -330,6 +346,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+<<<<<<< Updated upstream
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.5, )"
@@ -351,6 +368,11 @@
             "xunit": {
               "target": "Package",
               "version": "[2.4.1, )"
+=======
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+>>>>>>> Stashed changes
             }
           },
           "imports": [
@@ -371,7 +393,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     },
@@ -437,7 +463,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }
