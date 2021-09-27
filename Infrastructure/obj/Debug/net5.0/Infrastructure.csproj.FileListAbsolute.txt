@@ -55,3 +55,4 @@ C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5
 C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
 C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache

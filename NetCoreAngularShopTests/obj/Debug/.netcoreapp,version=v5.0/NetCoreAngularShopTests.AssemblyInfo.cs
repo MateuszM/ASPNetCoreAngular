@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("AngularCoreShop", "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\AngularCoreShop", "AngularCoreShop.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("BusinessLayer", "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer", "BusinessLayer.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Infrastructure", "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure", "Infrastructure.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ServiceLayer", "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer", "ServiceLayer.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("BusinessLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer", "BusinessLayer.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure", "Infrastructure.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("ServiceLayer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer", "ServiceLayer.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCoreAngularShopTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
