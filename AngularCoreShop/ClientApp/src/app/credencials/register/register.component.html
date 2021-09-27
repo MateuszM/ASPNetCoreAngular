@@ -1,6 +1,6 @@
 <section fxLayout="row wrap" fxLayoutAlign="center center" style="min-height: 500px">
   <mat-card fxFlex="50%" fxFlex.xs="100%">
-    <mat-card-title>Post a Job or Apply for One!</mat-card-title>
+    <mat-card-title>Please fill registration form</mat-card-title>
     <form [formGroup]="signupForm" (ngSubmit)="signup(signupForm.value)" fxLayout="column wrap" fxLayoutAlign="center center" fxLayoutGap="10px">
       <mat-card-content>
 
@@ -26,7 +26,14 @@
           <mat-error *ngIf="hasError('password', 'pattern')">Use one special character (@!#$%^&+=), 1 uppercase (A-Z) character and one digit (0-9)</mat-error>
         </mat-form-field>
         <mat-divider [vertical]="true"></mat-divider>
-
+        <mat-form-field>
+          <input matInput [type]="hide ? 'password' : 'text'" placeholder="Confirm password" formControlName="password">
+          <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          <mat-error *ngIf="hasError('password', 'required')">Password is required</mat-error>
+          <mat-error *ngIf="hasError('password', 'minlength')">Password must be at least 6 characters</mat-error>
+          <mat-error *ngIf="hasError('password', 'pattern')">Use one special character (@!#$%^&+=), 1 uppercase (A-Z) character and one digit (0-9)</mat-error>
+        </mat-form-field>
+        <mat-divider [vertical]="true"></mat-divider>
         <mat-form-field>
           <mat-label>My Role</mat-label>
           <select matNativeControl formControlName="role">

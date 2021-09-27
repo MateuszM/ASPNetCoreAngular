@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from '../material/material.module';
 import { MatDialogModule } from '@angular/material/dialog';
+import { ConfirmPasswordValidatorDirective } from './confirm-password-validator.directive';
+import { CustomValidatorsDirective } from './custom-validators.directive';
 
 
 
@@ -11,5 +13,6 @@ import { MatDialogModule } from '@angular/material/dialog';
   providers: [],
   entryComponents: [
   ],
+  declarations: [ConfirmPasswordValidatorDirective, CustomValidatorsDirective],
 })
 export class SharedModule { }

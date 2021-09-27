@@ -41,3 +41,17 @@ C:\Users\Bezimienny\source\repos\AngularCoreShop\Infrastructure\obj\Debug\net5.0
 C:\Users\Bezimienny\source\repos\AngularCoreShop\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 C:\Users\Bezimienny\source\repos\AngularCoreShop\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
 C:\Users\Bezimienny\source\repos\AngularCoreShop\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.json
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.dev.json
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\Bezimienny\source\repos\ASPNetCoreAngular\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache

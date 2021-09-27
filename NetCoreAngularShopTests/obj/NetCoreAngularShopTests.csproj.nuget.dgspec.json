@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj": {}
+    "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\AngularCoreShop\\AngularCoreShop.csproj": {
+    "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\AngularCoreShop\\AngularCoreShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\AngularCoreShop\\AngularCoreShop.csproj",
+        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\AngularCoreShop\\AngularCoreShop.csproj",
         "projectName": "AngularCoreShop",
-        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\AngularCoreShop\\AngularCoreShop.csproj",
+        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\AngularCoreShop\\AngularCoreShop.csproj",
         "packagesPath": "C:\\Users\\Bezimienny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\AngularCoreShop\\obj\\",
+        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\AngularCoreShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,14 +33,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\ServiceLayer.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\ServiceLayer.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\ServiceLayer.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Bezimienny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -115,8 +115,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -149,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Bezimienny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -244,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj": {
+    "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj",
+        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj",
         "projectName": "NetCoreAngularShopTests",
-        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj",
+        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\NetCoreAngularShopTests\\NetCoreAngularShopTests.csproj",
         "packagesPath": "C:\\Users\\Bezimienny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\NetCoreAngularShopTests\\obj\\",
+        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\NetCoreAngularShopTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -273,11 +273,11 @@
           "net5.0": {
             "targetAlias": ".NETCoreApp,Version=v5.0",
             "projectReferences": {
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\AngularCoreShop\\AngularCoreShop.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\AngularCoreShop\\AngularCoreShop.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\AngularCoreShop\\AngularCoreShop.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\AngularCoreShop\\AngularCoreShop.csproj"
               },
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\ServiceLayer.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\ServiceLayer.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\ServiceLayer.csproj"
               }
             }
           }
@@ -346,14 +346,14 @@
         }
       }
     },
-    "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\ServiceLayer.csproj": {
+    "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\ServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\ServiceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\ServiceLayer.csproj",
         "projectName": "ServiceLayer",
-        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\ServiceLayer.csproj",
+        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\ServiceLayer.csproj",
         "packagesPath": "C:\\Users\\Bezimienny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\ServiceLayer\\obj\\",
+        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\ServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -375,11 +375,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\AngularCoreShop\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\ASPNetCoreAngular\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
